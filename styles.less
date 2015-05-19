@@ -1,0 +1,53 @@
+
+body {
+  background: #a90329; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  /*min-height: 100%;*/
+  position: relative;
+
+}
+
+h1 {
+  font-variant: small-caps;
+}
+
+#parallaxText {
+  width: 0;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+
+#parallaxText .layer1, #parallaxText .layer2, #parallaxText .layer3 {
+  position: absolute;
+  font-size: 50px;
+  line-height: 50px;
+  margin-left: -150px;
+  margin-top: -25px;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  //color: #133f71;
+
+}
+#parallaxText .layer1 {
+  left: -10vw !important;
+}
+#parallaxText .layer2 {
+  left: 15vw !important;
+}
+
+#trigger3 {
+  //background-image: url('images/download.jpeg');
+}

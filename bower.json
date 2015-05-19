@@ -1,14 +1,16 @@
 {
-  "name": "ui-tester",
+  "name": "ui-design",
   "version": "0.0.0",
+  "homepage": "https://github.com/JJB1980/ui-design",
   "authors": [
-    "JJB1980 <j.j.b1980@live.com>"
+    "John Bowden <j.j.b1980@live.com>"
   ],
-  "description": "test bed for ui design",
+  "description": "playing with ui stuff",
   "main": "index.html",
   "license": "MIT",
   "dependencies": {
+    "ScrollMagic": "~2.0.5",
     "jquery": "~2.1.4",
-    "mdi": "~1.0.62-beta"
+    "greensock-js": "~1.10.2"
   }
 }

@@ -1,7 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ad037ec-ec7a-4d65-8687-3a2281d77d7a" name="Default" comment="" />
+    <list default="true" id="4ad037ec-ec7a-4d65-8687-3a2281d77d7a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/TrollFace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/.nodemonignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/build/iscroll-infinite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/build/iscroll-lite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/build/iscroll-probe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/build/iscroll-zoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/build/iscroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/2d-scroll/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/barebone/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/bounce-easing/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/carousel/gaugin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/carousel/giotto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/carousel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/carousel/leonardo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/carousel/warhol.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/click/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/event-passthrough/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/forms/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/horizontal/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/infinite/dataset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/infinite/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/key-bindings/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/minimap/ermine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/minimap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/no-transition/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/parallax/galaxies1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/parallax/galaxies2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/parallax/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/parallax/stars.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/probe/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/scroll-to-element/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/scrollbars/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/simple/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/snap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/styled-scrollbars/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/tap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/demos/zoom/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/close.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/default/_animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/default/handleEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/indicator/_initIndicators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/indicator/_transitionTime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/indicator/_transitionTimingFunction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/indicator/_translate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/indicator/build.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/indicator/indicator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/infinite/build.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/infinite/infinite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/infinite/refresh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/keys/build.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/keys/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/open.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/probe/_animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/probe/_move.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/probe/build.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/probe/indicator._move.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/probe/probe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/snap/_end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/snap/build.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/snap/refresh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/snap/snap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/wheel/build.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/wheel/wheel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/zoom/build.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/zoom/handleEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/zoom/refresh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/iscroll-master/src/zoom/zoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jquery-easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jquery.easing.compatibility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/scroll/css/perfect-scrollbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/scroll/css/perfect-scrollbar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/scroll/js/min/perfect-scrollbar.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/scroll/js/min/perfect-scrollbar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/scroll/js/perfect-scrollbar.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/scroll/js/perfect-scrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/css/materialdesignicons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/css/materialdesignicons.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/css/materialdesignicons.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/css/materialdesignicons.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/fonts/materialdesignicons-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/fonts/materialdesignicons-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/fonts/materialdesignicons-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/fonts/materialdesignicons-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/fonts/materialdesignicons-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/mdi/scss/materialdesignicons.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts.js" afterPath="$PROJECT_DIR$/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="tester.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,21 +134,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.307692">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.38506588">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/styles.css">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5506756">
-              <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.458333">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -45,8 +168,10 @@
         <entry file="file://$PROJECT_DIR$/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-              <folding />
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,15 +187,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/lib/jquery-easing.1.3.js" />
         <option value="$PROJECT_DIR$/lib/jquery.easing.compatibility.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scripts.js" />
+        <option value="$PROJECT_DIR$/v1/scripts.js" />
         <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/scripts.js" />
+        <option value="$PROJECT_DIR$/styles.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -82,17 +213,19 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1024" />
-    <option name="height" value="728" />
+    <option name="x" value="-1339" />
+    <option name="y" value="-230" />
+    <option name="width" value="1304" />
+    <option name="height" value="804" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -108,7 +241,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -123,13 +256,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ui-design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="tester" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui-design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,6 +285,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -193,26 +341,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1024" height="728" extended-state="0" />
+    <frame x="-1339" y="-230" width="1304" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47619048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15490797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -228,42 +376,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03803132">
@@ -271,24 +388,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jquery.easing.compatibility.js">
+    <entry file="file://$PROJECT_DIR$/v1/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.96304345">
-          <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.76045626">
+          <caret line="40" column="5" selection-start-line="3" selection-start-column="0" selection-end-line="40" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jquery-easing.1.3.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31413043">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/v1/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.307692">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.458333">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -296,15 +447,17 @@
     <entry file="file://$PROJECT_DIR$/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5506756">
-          <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.38506588">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -2,48 +2,73 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>tester</title>
-
-    <link rel="stylesheet" href="lib/scroll/css/perfect-scrollbar.css">
-    <link rel="stylesheet" href="library/mdi/css/materialdesignicons.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <title>UI-Tester</title>
     <link rel="stylesheet" href="styles.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="library/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="library/greensock-js/src/uncompressed/TweenMax.js"></script>
+    <script type="text/javascript" src="library/ScrollMagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+
+    <script type="text/javascript" src="library/ScrollMagic/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+    <script type="text/javascript" src="library/ScrollMagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+
+    <script src="scripts.js"></script>
 
 </head>
 <body>
 
-<div id="container">
+<script>
+</script>
 
-    <div id="header" class="header-fade">
-        <span>Some</span>
-        <span>heading</span>
-        <span>text.</span>
+<section class="demo fullwidth" id="trigger2">
+
+    <div id="parallaxText">
+        <h1 class="layer1">Mobile</h1>
+        <h1 class="layer2">Web</h1>
+        <h1 class="layer3">Software Development</h1>
+
     </div>
 
-    <div id="content">
-        <img id="image1" src="images/Desert.jpg"/>
-        <div id="image1-banner">Yo!</div>
-        <div id="content-inner1">
-            Hello!
-        </div>
-    </div>
+</section>
 
-    <div id="footer"></div>
+<section class="demo fullwidth" id="trigger3">
 
-</div>
 
-<div id="social-media">
-    <div class="mdi mdi-facebook "></div>
-    <div class="mdi mdi-twitter "></div>
-    <div class="mdi mdi-youtube-play "></div>
-    <div class="mdi mdi-linkedin "></div>
-</div>
+</section>
 
-<script src="library/jquery/dist/jquery.js"></script>
-<script src="lib/jquery-easing.1.3.js"></script>
-<script src="lib/jquery.easing.compatibility.js"></script>
-<script src="lib/scroll/js/perfect-scrollbar.jquery.js"></script>
-<script src="scripts.js"></script>
+<script>
+
+    var controller = new ScrollMagic.Controller({vertical: true});
+
+    // build tween
+    var tween = new TimelineMax ()
+            .add([
+                TweenMax.fromTo("#parallaxText .layer1", 1, {scale: 3, autoAlpha: 0.1, top: 600}, {top: 150, ease: Linear.easeNone}),
+                TweenMax.fromTo("#parallaxText .layer2", 1, {scale: 2, autoAlpha: 0.3, top: 450}, {top: 375, ease: Linear.easeNone})
+            ]);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: $(window).width()})
+            .setTween(tween)
+            .addIndicators() // add indicators (requires plugin)
+            .addTo(controller);
+
+    var blockTween = new TweenMax.to('#trigger3', 1.5, {
+        backgroundColor: '#000014'
+    });
+
+    var containerScene = new ScrollMagic.Scene({
+        triggerElement: '#trigger3'
+    })
+            .setTween(blockTween)
+            .addIndicators()
+            .addTo(controller);
+
+</script>
+
+
 
 </body>
 </html>
