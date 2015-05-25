@@ -1,0 +1,124 @@
+body,
+html {
+  height: 100%;
+}
+body {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  /*min-height: 100%;*/
+  transition: background-color 2s linear;
+}
+#wrapper {
+  height: 100%;
+  width: 100%;
+}
+.fullWidth {
+  width: 100%;
+}
+.backdrop1 {
+  background-color: #a90329;
+}
+.backdrop2 {
+  background-color: #3f4c6b;
+}
+.separator {
+  position: relative;
+  height: 300px;
+  opacity: 0;
+}
+.rain {
+  color: white;
+  opacity: 0.4;
+  font-size: 10px;
+  position: absolute;
+  top: -10px;
+}
+#trigger1 {
+  overflow: hidden;
+}
+#trigger1 span {
+  white-space: nowrap;
+}
+#page-head {
+  position: relative;
+  top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  text-align: center;
+}
+#page-head h1 {
+  font-variant: small-caps;
+  font-weight: normal;
+  font-size: 2em !important;
+  margin: 5px;
+}
+#page-head h2 {
+  font-weight: normal;
+  font-size: 0.8em;
+  transform: scale(3, 1);
+  -webkit-transform: scale(3, 1);
+  display: inline-block;
+}
+#trigger1 span {
+  opacity: 0;
+  font-size: 1em;
+  position: absolute;
+  transition: opacity 1s linear;
+}
+.show {
+  opacity: 0.4;
+}
+#section-slides,
+#section-wipes,
+#content-wrapper,
+#example-wrapper,
+#scrollContent {
+  height: 100%;
+  width: 100%;
+}
+#pinContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
+#slideContainer {
+  width: 400%;
+  /* to contain 4 panels, each with 100% of window width */
+  height: 100%;
+}
+.panel {
+  height: 100%;
+  width: 25%;
+  /* relative to parent -> 25% of 400% = 100% of window width */
+  float: left;
+}
+.backdrop-image {
+  opacity: 1;
+}
+.blue {
+  background-color: transparent;
+}
+.turqoise {
+  background-color: transparent;
+}
+.green {
+  background-color: transparent;
+}
+.bordeaux {
+  background-color: transparent;
+}
+@media screen and (max-device-width: 700px) {
+  body {
+    font-size: 2em;
+  }
+  .rain {
+    font-size: 17px;
+  }
+}
+.resize {
+  height: 100vh !important;
+}

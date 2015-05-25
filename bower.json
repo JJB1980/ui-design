@@ -11,6 +11,8 @@
   "dependencies": {
     "ScrollMagic": "~2.0.5",
     "jquery": "~2.1.4",
-    "greensock-js": "~1.10.2"
+    "greensock-js": "~1.10.2",
+    "mdi": "~1.0.62-beta",
+    "modernizr": "~2.8.3"
   }
 }

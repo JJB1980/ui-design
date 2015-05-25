@@ -1,0 +1,12 @@
+
+.panel {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 400px
+}
+.panel.green {
+}
+
+.panel.blue {
+    /*margin-top : 10em;*/
+}
