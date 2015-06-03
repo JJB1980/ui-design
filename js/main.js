@@ -36,19 +36,18 @@
             })
             .addTo(controller);
 
-        new ScrollMagic.Scene({triggerElement: "#trigger1", duration: $(window).height()})
-            //.setTween(tween)
-            .addIndicators() // add indicators (requires plugin)
-            .on("leave", function (e) {
-                clearInterval(_rain);
-                _rain = -1;
-            })
-            .on("enter", function (e) {
-                if (_rain < 0) {
-                    _rain = setInterval(makeRain, 50);
-                }
-            })
-            .addTo(controller);
+        //new ScrollMagic.Scene({triggerElement: "#trigger1", duration: $(window).height()})
+        //    .addIndicators() // add indicators (requires plugin)
+        //    .on("leave", function (e) {
+        //        clearInterval(_rain);
+        //        _rain = -1;
+        //    })
+        //    .on("enter", function (e) {
+        //        if (_rain < 0) {
+        //            _rain = setInterval(makeRain, 50);
+        //        }
+        //    })
+        //    .addTo(controller);
 
     });
 
